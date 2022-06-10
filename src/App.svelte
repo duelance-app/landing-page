@@ -63,6 +63,19 @@
 			</div>
 		</div>
 	</div>
+	<div class="bg-gray-100 flex flex-col">
+		<p class="text-center font-Raleway text-gray-900 text-5xl font-semibold mt-5">What We're Building</p>
+		<p class="text-center font-Raleway text-gray-900 text-2xl font-medium mt-2">Have a little sneak peak 👀 at how our product can change your freelance business!</p>
+		<div class="flex flex-row flex-wrap pt-5 px-20">
+			<div class="flex flex-col flex-wrap flex-grow-0">
+				<h3 class="font-bold font-Montserrat text-3xl text-black">Client Management</h3>
+				<p class="font-Raleway font-medium text-black text-xl">View every little detail about your client and keep your relationship moving!</p>
+			</div>
+			<div class="flex-grow">
+				<img src="images/clients-page-duelance.png">
+			</div>
+		</div>
+	</div>
 </main>
 
 <style>
