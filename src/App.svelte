@@ -18,7 +18,7 @@
 			<div></div>
 			<button class="grow-1 text-white font-Montserrat font-semibold text-xl mt-5 p-3 hover:bg-teal-900">View Features</button>
 		</div>
-		<div class="flex flex-row justify-evenly mt-10 flex-wrap">
+		<div class="flex flex-row justify-evenly mt-10 flex-wrap mx-2">
 			<div class="flex flex-col bg-teal-700 rounded-lg justify-evenly mb-8">
 				<p class="text-white font-Montserrat font-semibold text-4xl px-5 pt-4">$8900</p>
 				<p class="text-white font-Raleway font-semibold text-xl px-5">Invoices Sent</p>
@@ -107,7 +107,48 @@
 		  </div>
 		</section>
 	  </div>
-	  <footer class="my-12 pt-5 bg-green-900">
+	  <div class="min-w-screen min-h-screen bg-[#f0932b] flex items-center p-5 lg:p-20 overflow-hidden relative">
+  	<div class="border-2 relative rounded-xl flex flex-col md:flex-row items-center h-96  lg:h-80 sm:px-12 mx-auto w-full">
+    <div class="z-0 order-1 md:order-2 relative w-full md:w-2/5 h-80 overflow-hidden rounded-lg md:rounded-none md:rounded-r-lg">
+      <div class="absolute  bottom-5 right-20 z-50">
+        <img
+          src="https://ouch-cdn2.icons8.com/DoiXyEPMMfoX1cMkPaoV3iutZrsro-bFiQ7x1INDdqk/rs:fit:256:256/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvNzY3/LzU3MDUzNGJkLTBm/YmQtNGEwMi05NTFi/LWFmMjlkNmI0MjFk/YS5wbmc.png"
+          alt="icon 1" class="">
+      </div>
+
+      <div class="absolute inset-0 w-full h-full object-fill object-center bg-blue-400 bg-opacity-30 bg-cover bg-bottom"
+        style="background-image: url( https://images.unsplash.com/photo-1589859762194-eaae75c61f64?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGJhY2tncm91bmQlMjBzb2xpZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=80); background-blend-mode: multiply;">
+      </div>
+      <div
+        class="md:hidden absolute inset-0 h-full p-6 pb-6 flex flex-col-reverse justify-start items-start bg-gradient-to-b from-transparent via-transparent to-gray-900">
+
+      </div>
+      <svg class="hidden md:block absolute inset-y-0 h-full w-24 fill-current text-white -ml-12" viewBox="0 0 100 100"
+        preserveAspectRatio="none">
+        <polygon points="50,0 100,0 50,100 0,100" />
+      </svg>
+    </div>
+
+    <div class="z-10 order-2 md:order-1 w-full h-full md:w-3/5 flex items-center -mt-6 md:mt-0">
+      <div
+        class="p-8 md:pr-18 md:pl-14 md:py-12 mx-2 md:mx-0 h-full bg-white rounded-lg md:rounded-none md:rounded-l-lg shadow-xl md:shadow-none px-12">
+        <h1 class="md:block font-bold text-4xl text-purple-600 mb-2">Hey, wait...</h1>
+        <h2 class="md:block font-semibold text-2xl text-gray-700 mb-4">Join the waitlist!</h2>
+        <p class="text-gray-600 text-justify">You will be the first to be notified about the product launch and get early access to it! You do wanna improve your freelance business?</p>
+        <form class="max-w-md items-center justify-center flex my-5 mx-auto mt-8">
+          <input type="email" placeholder="email@example.com"
+            class="text-gray-500 w-full pl-4 pr-14 py-3 rounded-l-xl bg-gray-200 focus:outline-none border-transparent focus:border-transparent focus:ring-0 " />
+          <button
+            class="w-1/3 sm:px-5 py-3 rounded-r-xl rounded-bl-3xl text-white focus:outline-none border-transparent focus:border-transparent focus:ring-0 bg-indigo-800  sm:mt-0 -ml-12 sm:w-auto ">
+            Join
+          </button>
+        </form>
+      </div>
+    </div>
+
+  </div>
+	</div>
+	<footer class="my-12 pt-5 bg-green-900">
 		<div class="flex flex-col sm:flex-row justify-between pt-8 mx-8">
 		  <div class="w-full sm:w-1/2">
 			<h1 class="font-Raleway text-4xl text-gray-100 font-bold sm:text-5xl">Duelance</h1>
