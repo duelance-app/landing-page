@@ -63,19 +63,50 @@
 			</div>
 		</div>
 	</div>
-	<div class="bg-gray-100 flex flex-col">
-		<p class="text-center font-Raleway text-gray-900 text-5xl font-semibold mt-5">What We're Building</p>
-		<p class="text-center font-Raleway text-gray-900 text-2xl font-medium mt-2">Have a little sneak peak 👀 at how our product can change your freelance business!</p>
-		<div class="flex flex-row flex-wrap pt-5 px-20">
-			<div class="flex flex-col flex-wrap flex-grow-0">
-				<h3 class="font-bold font-Montserrat text-3xl text-black">Client Management</h3>
-				<p class="font-Raleway font-medium text-black text-xl">View every little detail about your client and keep your relationship moving!</p>
+	<div class="px-12 mx-auto bg-gradient-to-r from-gray-100 to-gray-300">
+		<section class="py-12 px-4 text-center">
+		  <div class="w-full text-center">
+			<h1 class="text-5xl leading-tight font-bold"> What We're Building </h1>
+			<p class="mt-6 text-gray-600 text-xl leading-relaxed">Have a 👀 at how our product will change your freelancing business!</p>
+			<button
+			  class=" my-6 py-2 px-8 border-2 rounded-full hover:text-gray-200 hover:bg-green-700 border-green-700">Join The Waitlist</button>
+		  </div>
+		</section>
+		<hr class="border border-gray-300">
+		<section class="p-4">
+		  <div class="flex flex-wrap text-center">
+			<div class="md:w-1/2 py-4 md:px-10 mb-4 md:mb-0">
+				<img class="mx-auto mb-3 w-40"
+				src="images/handshake-icon.png" alt="">
+			  <h3 class="text-2xl mb-3 font-heading text-gray-800 font-medium">All-In-One Management Solution For Your Freelance Business.</h3>
+			  <p class="text-gray-500 leading-relaxed">As a freelancer, you've got a lot on your plate already, along with stupid tasks like project management, invoicing, accounting, etc. Duelance is one platform that helps you manage all these aspects of your freelance business, from one place. No more shifting between ten different tools for ten different tasks.</p>
 			</div>
-			<div class="flex-grow">
-				<img src="images/clients-page-duelance.png">
+			<div class="md:w-1/2 py-4 md:px-10 mb-4 md:mb-0 md:border-l">
+				<img class="w-full mx-auto" src="images/app-dashboard-duelance.png" alt="">
 			</div>
-		</div>
-	</div>
+		  </div>
+		</section>
+		<hr class="border border-gray-300">
+		<section class="py-8 px-4">
+		  <div class="flex flex-wrap -mx-4 -mb-6">
+			<div class="lg:w-1/3 px-4 mb-6"><img class="w-12 mb-2"
+				src="https://cdn-icons-png.flaticon.com/128/2916/2916103.png" alt="">
+			  <h3 class="text-2xl mb-3 font-heading text-gray-800 font-medium">Accounting</h3>
+			  <p class="text-gray-500 leading-relaxed">Tools to easily track payments, expenses, revenue, profits, and more. Stay on top of your numbers.</p>
+			</div>
+			<div class="lg:w-1/3 px-4 mb-6 "><img class="w-12 mb-2"
+				src="https://cdn-icons-png.flaticon.com/128/2190/2190552.png" alt="">
+			  <h3 class="text-2xl mb-3 font-heading text-gray-800 font-medium">Client Relationships</h3>
+			  <p class="text-gray-500 leading-relaxed">They say, "Clients are God". Easily manage all the clients you're working for, and never forget a single detail about them.</p>
+			</div>
+			<div class="lg:w-1/3 px-4 mb-6"><img class="w-12 mb-2"
+				src="https://cdn-icons-png.flaticon.com/128/1159/1159283.png" alt="">
+			  <h3 class="text-2xl mb-3 font-heading text-gray-800 font-medium">Project Management</h3>
+			  <p class="text-gray-500 leading-relaxed">Gone are the days of missing project due dates. Track all the things you're working on, their status, and more, in one place so that you can stay managed and sane.</p>
+			</div>
+		  </div>
+		</section>
+	  </div>
 </main>
 
 <style>
