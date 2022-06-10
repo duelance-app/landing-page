@@ -6,7 +6,7 @@
 	<div class="bg-green-900 flex flex-col pb-10">
 		<div class="flex flex-col">
 			<div class="p-5 text-center">
-				<a href="#" class="lg: text-center text-4xl font-Raleway text-white font-semibold hover:text-opacity-75">Duelance</a>
+				<a href="##" class="lg: text-center text-4xl font-Raleway text-white font-semibold hover:text-opacity-75">Duelance</a>
 			</div>
 			<div class="w-full border-t border-gray-300 m-auto"></div>
 		</div>
