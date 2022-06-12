@@ -1,3 +1,5 @@
+const colors = require('tailwindcss/colors')
+
 const config = {
   content: [
     "./src/**/*.{html,js,svelte,ts}",
@@ -9,6 +11,12 @@ const config = {
       fontFamily: {
         Raleway: ['Raleway', 'sans-serif'],
         Montserrat: ['Montserrat', 'sans-serif'],
+      },
+      colors: {
+        amber: colors.amber,
+        emerald: colors.emerald,
+        lime: colors.lime,
+        slate: colors.slate,
       }
     },
   },
