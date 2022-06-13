@@ -71,7 +71,7 @@
 			<h1 class="text-5xl leading-tight font-bold text-white"> What We're Building </h1>
 			<p class="mt-6 text-xl leading-relaxed text-white">Have a 👀 at how our product will change your freelancing business!</p>
 			<button
-			  class="text-white my-6 py-2 px-8 border-2 rounded-full hover:text-gray-200 hover:bg-green-700 border-green-700">Join The Waitlist</button>
+			  class="text-white my-6 py-2 px-8 border-2 rounded-full hover:text-gray-200 hover:bg-blue-400 border-blue-400">Join The Waitlist</button>
 		  </div>
 		</section>
 		<hr class="border border-gray-300">
