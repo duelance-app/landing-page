@@ -1,15 +1,16 @@
 <script lang="ts">
-	
+	import Navbar from "./components/Navbar.svelte"; 
 </script>
 
 <main>
 	<div class="bg-gray-900 flex flex-col pb-10">
-		<div class="flex flex-col">
+		<Navbar />
+		<!-- <div class="flex flex-col">
 			<div class="p-5 text-center">
-				<a href="#" class="lg: text-center text-4xl font-Raleway text-white font-semibold hover:text-opacity-75">Duelance</a>
+				<a href="https://duelance.app" class="lg: text-center text-4xl font-Raleway text-white font-semibold hover:text-opacity-75">Duelance</a>
 			</div>
 			<div class="w-full border-t border-gray-300 m-auto"></div>
-		</div>
+		</div> -->
 		<div class="flex flex-col items-center">
 			<h1 class="font-semibold text-white text-6xl font-Raleway text-center pt-7">Stay On Top Of Your</h1>
 			<h1 class="font-semibold text-white text-7xl font-Raleway text-center pt-3">Freelance Business.</h1>
@@ -129,9 +130,6 @@
 </main>
 
 <style>
-	a {
-		text-decoration: none;
-	}
 	@media(max-width: 415px) {
 		#invoice-money-box {
 			padding-top: 1.2em;
