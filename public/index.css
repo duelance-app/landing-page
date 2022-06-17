@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap");
 /*
 ! tailwindcss v3.1.2 | MIT License | https://tailwindcss.com
 */
@@ -1069,6 +1069,9 @@ input[type="range"].range-lg::-moz-range-thumb{
 }
 .h-10{
   height: 2.5rem;
+}
+.h-3\/4{
+  height: 75%;
 }
 .h-8{
   height: 2rem;
