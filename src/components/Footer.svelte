@@ -1,6 +1,6 @@
 <main>
     <footer class="bg-gray-900">
-        <div class="w-full px-10 rounded-b-lg">
+        <div class="px-10 rounded-b-lg">
             <div
                 class="max-w-7xl flex flex-col-reverse sm:flex-row py-4 mx-auto justify-between items-center"
             >
