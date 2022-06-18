@@ -2,7 +2,7 @@
 
 <main>
     <div class="flex flex-row justify-evenly mt-10 flex-wrap mx-2">
-        <div class="flex bg-blue-400 flex-col rounded-lg justify-evenly mb-8" id="invoice-money-box">
+        <div class="flex bg-blue-400 flex-col rounded-lg justify-evenly mb-8 px-2" id="invoice-money-box">
             <p class="text-black font-Raleway font-semibold text-xl px-5" id="invoices-sent">Invoices Sent</p>
             <div class="flex flex-row flex-wrap items-start">
                 <p class="text-black font-Montserrat font-semibold text-4xl pl-5 pr-2" id="money-received">$8900</p>
@@ -15,7 +15,7 @@
             </div>
         </div>
 
-        <div class="flex flex-col bg-blue-400 rounded-lg justify-evenly mb-8">
+        <div class="flex flex-col bg-blue-400 rounded-lg justify-evenly mb-8 px-2">
             <p class="text-black font-Raleway font-semibold text-xl px-3 pt-4">EXPENSES</p>
             <div class="flex flex-row mr-3">
                 <p class="text-black font-Montserrat font-semibold text-5xl px-3 pt-4">$923</p>
@@ -29,14 +29,14 @@
                 <div class="w-1/6 h-10 mt-10 bg-yellow-600"></div>
             </div>
         </div>
-        <div class="flex flex-col bg-blue-400 rounded-lg p-5 justify-evenly mb-8 px-7">
-            <p class="text-2xl font-Raleway text-black font-semibold">Projects Due</p>
-            <p class="text-2xl font-Raleway text-black font-semibold">This Month </p>
+        <div class="flex flex-col bg-blue-400 rounded-lg p-5 justify-evenly mb-8 px-4">
+            <p class="text-2xl font-Raleway text-black font-semibold">Projects Due This</p>
+            <p class="text-2xl font-Raleway text-black font-semibold">Month </p>
             <div class="bg-yellow-600 text-lg font-Montserrat text-white font-medium p-2 rounded-md">Not Started - 4</div>				
             <div class="bg-blue-900 text-lg font-Montserrat text-white font-medium p-2 rounded-md mt-2">In Progress - 2</div>				
             <div class="bg-green-800 text-lg font-Montserrat text-white font-medium p-2 rounded-md mt-2">Completed - 0</div>				
         </div>
-        <div class="flex flex-col bg-blue-400 rounded-lg p-5 mb-8">
+        <div class="flex flex-col bg-blue-400 rounded-lg p-7 mb-8">
             <p class="text-2xl font-Raleway text-black font-semibold">Technical Blog</p>
             <p class="text-2xl font-Raleway text-black font-semibold">On Kubernetes</p>
             
