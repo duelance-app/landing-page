@@ -935,6 +935,10 @@ input[type="range"].range-lg::-moz-range-thumb{
   margin-left: 1rem;
   margin-right: 1rem;
 }
+.my-auto{
+  margin-top: auto;
+  margin-bottom: auto;
+}
 .mt-6{
   margin-top: 1.5rem;
 }
@@ -4132,6 +4136,9 @@ input[type="range"].range-lg::-moz-range-thumb{
   .sm\:w-10{
     width: 2.5rem;
   }
+  .sm\:w-auto{
+    width: auto;
+  }
   .sm\:grid-cols-3{
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
@@ -4227,6 +4234,9 @@ input[type="range"].range-lg::-moz-range-thumb{
   .md\:mt-0{
     margin-top: 0px;
   }
+  .md\:mb-8{
+    margin-bottom: 2rem;
+  }
   .md\:block{
     display: block;
   }
@@ -4247,6 +4257,15 @@ input[type="range"].range-lg::-moz-range-thumb{
   }
   .md\:w-auto{
     width: auto;
+  }
+  .md\:w-full{
+    width: 100%;
+  }
+  .md\:w-3\/4{
+    width: 75%;
+  }
+  .md\:w-2\/3{
+    width: 66.666667%;
   }
   .md\:max-w-xl{
     max-width: 36rem;
