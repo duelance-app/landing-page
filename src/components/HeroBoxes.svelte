@@ -1,81 +1,110 @@
-<script lang="ts"></script>
+<script lang="ts">
+    import MdWarning from 'svelte-icons/md/MdWarning.svelte'
 
+
+    const taxdate = new Date();
+    const dd = String(taxdate.getDate() + 1).padStart(2, '0');
+    const month = taxdate.toLocaleString('default', { month: 'long' });
+    console.log(month)
+</script>
 <main>
     <div class="flex flex-row justify-evenly mt-10 flex-wrap mx-2">
         <div
-            class="flex bg-blue-400 flex-col rounded-lg justify-evenly mb-8 px-2"
+            class="flex bg-blue-400 flex-col rounded-lg justify-evenly mb-8 py-5 px-7"
             id="invoice-money-box"
         >
             <p
-                class="text-black font-Raleway font-semibold text-xl px-5"
+                class="text-black font-Raleway font-semibold text-3xl"
+                id="invoices-sent"
+            >
+                Invoices
+            </p>
+            <p
+                class="text-black font-Raleway font-semibold text-xl"
                 id="invoices-sent"
             >
                 Requested
             </p>
-            <div class="flex flex-row flex-wrap items-start">
+            <div class="flex flex-row flex-wrap items-center">
                 <p
-                    class="text-black font-Montserrat font-semibold text-4xl pl-5 pr-2"
+                    class="text-black font-Montserrat font-semibold text-4xl pr-2"
                     id="money-received"
                 >
                     $8900
                 </p>
                 <div
-                    class="bg-green-700 text-white font-Montserrat p-1 h-5/12"
+                    class="bg-green-700 text-white font-Montserrat p-1 h-5/12 rounded-lg"
                     id="percentage-money-received"
                 >
-                    +42.6%
+                    +42%
                 </div>
             </div>
-            <p class="text-black font-Raleway font-semibold text-xl px-5">
+            <p class="text-black font-Raleway font-semibold text-xl">
                 Received
             </p>
             <div class="flex flex-row flex-wrap items-start">
                 <p
-                    class="text-black font-Montserrat font-semibold text-4xl pl-5 pr-2 pb-5"
+                    class="text-black font-Montserrat font-semibold text-4xl pr-2"
                 >
                     $6400
                 </p>
                 <div
-                    class="bg-green-700 text-white font-Montserrat p-1 h-1/2 mr-3 mt-2"
+                    class="bg-green-700 text-white font-Montserrat p-1 h-4/5 mt-2 rounded-lg"
                 >
-                    +22.4%
+                    +22%
                 </div>
             </div>
         </div>
 
         <div
-            class="flex flex-col bg-blue-400 rounded-lg justify-evenly mb-8 px-2"
+            class="flex flex-col bg-blue-400 rounded-lg justify-evenly mb-8 pl-7 pr-10 py-5 pt-6"
         >
-            <p class="text-black font-Raleway font-semibold text-xl px-3 pt-4">
-                EXPENSES
+            <p class="text-black font-Raleway font-semibold text-3xl pt-2">
+                Tax Filing
             </p>
-            <div class="flex flex-row mr-3">
+            <p class="text-black font-Raleway font-semibold text-xl pt-4">
+                Estimated
+            </p>
+            <div class="flex flex-row items-start">
                 <p
-                    class="text-black font-Montserrat font-semibold text-5xl px-3 pt-4"
+                    class="text-black font-Montserrat font-semibold text-4xl pr-2 pt-4"
                 >
-                    $923
+                    $3476
                 </p>
                 <div
-                    class="bg-red-700 text-white font-Montserrat p-1 h-1/2 mt-6 mr-2"
+                    class="bg-green-700 text-white font-Montserrat p-1 h-1/2 mt-5 mb-2 rounded-lg"
                 >
-                    +3.5%
+                    -7%
                 </div>
             </div>
-            <div class="flex flex-row justify-between py-10 px-5">
-                <div class="w-1/6 h-20 bg-blue-900" />
-                <div class="w-1/6 mt-10 h-10 bg-yellow-600" />
-                <div class="w-1/6 mt-5 h-15 bg-green-900" />
-                <div class="w-1/6 h-18 mt-2 bg-blue-900" />
-                <div class="w-1/6 h-10 mt-10 bg-yellow-600" />
+            <p class="text-black font-Raleway font-semibold text-xl pt-3">
+                Due
+            </p>
+            <p class="text-black font-Montserrat font-semibold text-4xl pt-3">
+                {dd} {month}
+            </p>
+            <div class="flex items-center bg-red-600 text-white text-sm font-bold px-3 py-2 h-1/4 w-full rounded-3xl" role="alert">
+                <svg width="30" height="30" viewBox="0 0 47 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g id="Frame 1" clip-path="url(#clip0_101_20)">
+                    <path id="Polygon 4" d="M23.5 3L46.4497 40.5H0.550327L23.5 3Z" fill="black"/>
+                    <text id="!" fill="white" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="36" letter-spacing="0em"><tspan x="18" y="38.0909">!</tspan></text>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_101_20">
+                    <rect width="47" height="47" fill="white"/>
+                    </clipPath>
+                    </defs>
+                </svg>
+                <p class="text-2xl pl-2">1 Day</p>
             </div>
         </div>
         <div
-            class="flex flex-col bg-blue-400 rounded-lg p-3 justify-evenly mb-8 px-4"
+            class="flex flex-col bg-blue-400 rounded-lg p-3 justify-evenly mb-8 px-5 py-5"
         >
-            <p class="text-2xl font-Raleway text-black font-semibold">
-                Projects Due This
+            <p class="text-3xl font-Raleway text-black font-semibold">
+                Projects Due
             </p>
-            <p class="text-2xl font-Raleway text-black font-semibold">Month</p>
+            <p class="text-2xl font-Raleway text-black font-semibold">This Month</p>
             <div
                 class="bg-yellow-600 text-lg font-Montserrat text-white font-medium p-2 rounded-md"
             >
