@@ -176,7 +176,7 @@
                     />
                 </div>
                 <p class="font-xl text-black font-Montserrat font-medium">
-                    Stephanie
+                    Maria
                 </p>
             </div>
         </div>
