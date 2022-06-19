@@ -156,7 +156,7 @@
 
             <div class="w-full border-t border-black mx-auto p-2" />
             <p class="text-xl font-Montserrat text-black font-semibold pt-2">
-                Client #1
+                Client: Stephanie
             </p>
             <p class="text-xl font-Montserrat text-black font-semibold pt-3">
                 Payment: $315
