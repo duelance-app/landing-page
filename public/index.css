@@ -3408,6 +3408,9 @@ body[dir="rtl"] .checkbox:checked,
 .z-40{
   z-index: 40;
 }
+.m-auto{
+  margin: auto;
+}
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
@@ -5397,6 +5400,9 @@ body[dir="rtl"] .checkbox:checked,
 .hover\:text-gray-600:hover{
   --tw-text-opacity: 1;
   color: rgb(75 85 99 / var(--tw-text-opacity));
+}
+.hover\:text-opacity-75:hover{
+  --tw-text-opacity: 0.75;
 }
 .hover\:underline:hover{
   -webkit-text-decoration-line: underline;
