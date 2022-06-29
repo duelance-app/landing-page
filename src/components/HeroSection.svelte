@@ -1,4 +1,4 @@
-<script lang="ts">
+<!-- <script lang="ts">
     var data = new FormData();
     async function sendWaitListdata() {
         const name = document.getElementById("name") as HTMLInputElement;
@@ -20,7 +20,7 @@
             throw new Error("Please enter valid email and name");
         }
     }
-</script>
+</script> -->
 
 <main>
     <div class="flex flex-col items-center">
@@ -35,7 +35,11 @@
             With Duelance, you can carry out project management, accounting,
             invoicing, time tracking, and other *boring* stuff all in one place!
         </p>
-        <form action="" class="inline-block mx-auto p-5">
+        <form
+            action="https://duelance.app/addWaitlist"
+            method="post"
+            class="inline-block mx-auto p-5"
+        >
             <input
                 type="text"
                 placeholder="John Doe"
@@ -48,9 +52,9 @@
                 class="input w-full max-w-4xl bg-white mt-3"
                 id="email"
             />
-            <button class="btn text-white bg-blue-600 mt-3"
-                >Join The Waitlist</button
-            >
+            <button class="btn text-white bg-blue-600 mt-3">
+                Join The Waitlist
+            </button>
         </form>
     </div>
 </main>
