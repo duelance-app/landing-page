@@ -3,7 +3,7 @@
 </script>
 <main>
     <div class="navbar bg-black">
-        <img src="images/2.png" alt="duelance-logo" class="mx-auto w-1/3 h-1/3">
+        <img src="images/2.png" alt="duelance-logo" class="mx-auto w-1/4 h-1/4">
     </div>
 </main>
 
