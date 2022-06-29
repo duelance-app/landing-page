@@ -1,4 +1,5 @@
-<script lang="ts"></script>
+<script lang="ts">
+</script>
 
 <main>
     <div class="flex flex-row justify-evenly items-center flex-wrap mb-2">
@@ -17,20 +18,22 @@
                 Everything in one place.
             </p>
         </div>
-        <form action="" class="inline-block mx-auto p-7">
+        <form class="inline-block mx-auto p-5">
             <input
                 type="text"
                 placeholder="John Doe"
                 class="input w-full max-w-4xl bg-white"
+                id="name"
             />
             <input
-                type="text"
+                type="email"
                 placeholder="example@example.com"
                 class="input w-full max-w-4xl bg-white mt-3"
+                id="email"
             />
-            <button class="btn text-white bg-blue-600 mt-3"
-                >Join The Waitlist</button
-            >
+            <button type="submit" class="btn text-white bg-blue-600 mt-3">
+                Join The Waitlist
+            </button>
         </form>
     </div>
 </main>

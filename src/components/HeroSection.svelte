@@ -1,14 +1,18 @@
-<!-- <script lang="ts">
-    var data = new FormData();
-    async function sendWaitListdata() {
-        const name = document.getElementById("name") as HTMLInputElement;
+<script lang="ts">
+    async function sendWaitlistData() {
+        const name_input = document.getElementById("name") as HTMLInputElement;
+        const name_arr = name_input.value.split(" ");
+        var first_name = name_arr[0];
+        for (let i = 0; i < name_arr.length - 2; i++) {
+            first_name = first_name.concat(" ", name_arr[i + 1]);
+        }
         const email = document.getElementById("email") as HTMLInputElement;
         const response = await fetch("https://duelance.app/addWaitlist", {
             method: "POST",
             body: JSON.stringify({
                 email: email.value,
-                first_name: name.value,
-                last_name: null,
+                first_name: first_name,
+                last_name: name_arr[name_arr.length - 1],
             }),
             headers: {
                 "Content-Type": "application/json",
@@ -16,11 +20,10 @@
         });
 
         if (!response.ok) {
-            /* Handle */
             throw new Error("Please enter valid email and name");
         }
     }
-</script> -->
+</script>
 
 <main>
     <div class="flex flex-col items-center">
@@ -36,8 +39,7 @@
             invoicing, time tracking, and other *boring* stuff all in one place!
         </p>
         <form
-            action="https://duelance.app/addWaitlist"
-            method="post"
+            on:submit|preventDefault={sendWaitlistData}
             class="inline-block mx-auto p-5"
         >
             <input
@@ -52,7 +54,7 @@
                 class="input w-full max-w-4xl bg-white mt-3"
                 id="email"
             />
-            <button class="btn text-white bg-blue-600 mt-3">
+            <button type="submit" class="btn text-white bg-blue-600 mt-3">
                 Join The Waitlist
             </button>
         </form>
