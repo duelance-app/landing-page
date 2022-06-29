@@ -1,8 +1,8 @@
 <main>
-    <footer class="bg-gray-900">
+    <footer class="bg-black">
         <div class="px-10 rounded-b-lg">
             <div
-                class="max-w-7xl flex flex-col-reverse sm:flex-row py-4 mx-auto justify-between items-center"
+                class="max-w-full flex flex-col-reverse sm:flex-row py-4 mx-auto justify-between items-center"
             >
                 <div class="text-center mt-4 sm:mt-0 text-gray-100">
                     &copy; 2022 <span class="font-bold text-gray-50"
@@ -11,7 +11,7 @@
                 </div>
                 <div class="">
                     <p
-                        class="font-Raleway text-xl text-gray-100 font-bold sm:text-5xl"
+                        class="font-Raleway text-5xl text-gray-100 font-bold"
                     >
                         Duelance
                     </p>
