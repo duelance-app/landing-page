@@ -7,20 +7,23 @@
             first_name = first_name.concat(" ", name_arr[i + 1]);
         }
         const email = document.getElementById("email") as HTMLInputElement;
-        const response = await fetch("https://duelance.app/addWaitlist", {
-            method: "POST",
-            body: JSON.stringify({
-                email: email.value,
-                first_name: first_name,
-                last_name: name_arr[name_arr.length - 1],
-            }),
-            headers: {
-                "Content-Type": "application/json",
-            },
-        });
+        const response = await fetch(
+            `https://${window.location.hostname}/addWaitlist`,
+            {
+                method: "POST",
+                body: JSON.stringify({
+                    email: email.value,
+                    first_name: first_name,
+                    last_name: name_arr[name_arr.length - 1],
+                }),
+                headers: {
+                    "Content-Type": "application/json",
+                },
+            }
+        );
 
         if (!response.ok) {
-            throw new Error("Please enter valid email and name");
+            throw new Error("Please enter valid email address and name.");
         }
     }
 </script>
@@ -42,7 +45,10 @@
                 Everything in one place.
             </p>
         </div>
-        <form class="inline-block mx-auto p-5" on:submit|preventDefault={sendWaitlistData}>
+        <form
+            class="inline-block mx-auto p-5"
+            on:submit|preventDefault={sendWaitlistData}
+        >
             <input
                 type="text"
                 placeholder="John Doe"
